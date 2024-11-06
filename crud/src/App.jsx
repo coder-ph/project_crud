@@ -21,7 +21,7 @@ useEffect(()=>{
 
   return(
     <>
-      <Fruitlist  fruits={fruits}/>
+      <Fruitlist  fruits={fruits} setFruits={setFruitData}/>
     </>
   )
 }
